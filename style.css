@@ -10,7 +10,6 @@ body{
     font-family: "boxy";
 }
 
-
 header{
     padding: 10px;
     background-color: #53dd6c;
@@ -50,6 +49,33 @@ header h1{
 }
 
 #imageBox img{
+    margin: 10px;
+    height: 50vh;
+    width: 50vw;
+}
+#imageBox h1{
+    font-size: 40px;
+}
+
+#infoWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#infoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoBox h1{
+    font-size: 40px;
+}
+
+#infoBox img{
+    margin: 10px;
     height: 50vh;
     width: 50vw;
 }
