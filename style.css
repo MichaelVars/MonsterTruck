@@ -1,0 +1,26 @@
+/* machalite: 53DD6C, Black: 050404, Byzantium: 7A3B69 */
+
+@font-face {
+    font-family: "boxy";
+    src: url("/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "boxy";
+}
+
+
+header{
+    padding: 10px;
+    background-color: #53dd6c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 16px;
+}
