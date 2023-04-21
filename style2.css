@@ -1,0 +1,72 @@
+/* machalite: 53DD6C, Black: 050404, Byzantium: 7A3B69 */
+
+@font-face {
+    font-family: "boxy";
+    src: url("/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "boxy";
+}
+
+
+header{
+    padding: 10px;
+    background-color: #53dd6c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: inset 5px 5px 10px #050404;
+    width: 100vw;
+}
+
+header a{
+    position: relative;
+    top: 25px;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0px;
+    padding: 10px 10px;
+    height: 70px;
+    
+}
+header a:hover{
+    border-bottom: 8px solid #050404;
+    background-color: #7A3B69;
+    color: white;
+}
+
+header h1{
+    font-size: 40px;
+    text-shadow: 4px 4px 3px white;
+    padding-top: 10px;
+}
+
+#imageBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imageBox img{
+    height: 50vh;
+    width: 50vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    background-color: #7A3B69;
+    padding: 10px;
+    box-shadow: inset 5px 5px 10px #050404;
+    color:white;
+    border-radius: 10px;
+    font-family: boxy;
+    font-size: 20px;
+    margin-top: 10px;
+}
