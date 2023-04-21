@@ -8,15 +8,22 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "boxy";
+    color: #53dd6c;
+    text-shadow: 4px 4px 5px black;
 }
 
 header{
     padding: 10px;
-    background-color: #53dd6c;
+    background-color: #7A3B69;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     box-shadow: inset 5px 5px 10px #050404;
+    border: 5px solid #050404;
+}
+header img{
+    height: 15vh;
+    width: 10vw;
 }
 
 header a{
@@ -27,17 +34,20 @@ header a{
     margin: 0px;
     padding: 10px 10px;
     height: 70px;
+    color: #53dd6c;
     
 }
 header a:hover{
     border-bottom: 8px solid #050404;
-    background-color: #7A3B69;
+    background-color: #53dd6c;
     color: white;
+    text-shadow: 4px 4px 3px black;
+    box-shadow: 3px 3px 5px #050404;
 }
 
 header h1{
     font-size: 40px;
-    text-shadow: 4px 4px 3px white;
+    text-shadow: 4px 4px 3px black;
     padding-top: 10px;
 }
 
@@ -46,6 +56,7 @@ header h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #7A3B69;
 }
 
 #imageBox img{
@@ -57,25 +68,50 @@ header h1{
     font-size: 40px;
 }
 
-#infoWrapper{
+#imageWrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-#infoBox{
+#imageWrapper div h1{
+    border: 5px solid #050404;
+    padding: 10px;
+}
+
+#SponsorBox{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #7A3B69;
 }
 
-#infoBox h1{
+#SponsorBox h1{
     font-size: 40px;
 }
 
-#infoBox img{
+#SponsorBox img{
     margin: 10px;
     height: 50vh;
     width: 50vw;
+}
+
+#infoWrapper{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #7A3B69;
+    
+}
+
+#info h3{
+    border-bottom: 2px solid #050404;
+}
+
+img{
+    border: 5px solid #050404;
 }
