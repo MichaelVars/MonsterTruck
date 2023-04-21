@@ -11,14 +11,28 @@ body{
     background-color: #7A3B69;
     color: #53dd6c;
     text-shadow: 4px 4px 5px black;
+    font-size: 30px;
+}
+
+select{
+    font-size: 30px;
+}
+
+input{
+    font-size: 30px;
 }
 
 #eventInformation{
     border: 2px solid black;
     width: 80vw;
-    flex-direction: column;
     text-align: center; 
     margin-top: 10px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header{
@@ -30,6 +44,7 @@ header{
     box-shadow: inset 5px 5px 10px #050404;
     width: 100vw;
     color: black;
+    border: 5px solid #050404;
 }
 
 header a{
@@ -80,4 +95,7 @@ body{
     font-family: boxy;
     font-size: 20px;
     margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
 }
